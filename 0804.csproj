@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>fire.ico</ApplicationIcon>
+    <ApplicationIcon>Ico_fire.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -49,25 +49,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
     <Compile Include="FormGame.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormGame.Designer.cs">
       <DependentUpon>FormGame.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormRating.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRating.Designer.cs">
+      <DependentUpon>FormRating.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="FormGame.resx">
       <DependentUpon>FormGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRating.resx">
+      <DependentUpon>FormRating.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -94,43 +94,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="fire.ico" />
-    <Content Include="Resources\Imges\1 — копия.png" />
-    <Content Include="Resources\Imges\1.png" />
-    <Content Include="Resources\Imges\10 — копия.png" />
-    <Content Include="Resources\Imges\10.png" />
-    <Content Include="Resources\Imges\11 — копия.png" />
-    <Content Include="Resources\Imges\11.png" />
-    <Content Include="Resources\Imges\12 — копия.png" />
-    <Content Include="Resources\Imges\12.png" />
-    <Content Include="Resources\Imges\13 — копия.png" />
-    <Content Include="Resources\Imges\13.png" />
-    <Content Include="Resources\Imges\14 — копия.png" />
-    <Content Include="Resources\Imges\14.png" />
-    <Content Include="Resources\Imges\15 — копия.png" />
-    <Content Include="Resources\Imges\15.png" />
-    <Content Include="Resources\Imges\16 — копия.png" />
-    <Content Include="Resources\Imges\16.png" />
-    <Content Include="Resources\Imges\17 — копия.png" />
-    <Content Include="Resources\Imges\17.png" />
-    <Content Include="Resources\Imges\18 — копия.png" />
-    <Content Include="Resources\Imges\18.png" />
-    <Content Include="Resources\Imges\2 — копия.png" />
-    <Content Include="Resources\Imges\2.png" />
-    <Content Include="Resources\Imges\3 — копия.png" />
-    <Content Include="Resources\Imges\3.png" />
-    <Content Include="Resources\Imges\4 — копия.png" />
-    <Content Include="Resources\Imges\4.png" />
-    <Content Include="Resources\Imges\5 — копия.png" />
-    <Content Include="Resources\Imges\5.png" />
-    <Content Include="Resources\Imges\6 — копия.png" />
-    <Content Include="Resources\Imges\6.png" />
-    <Content Include="Resources\Imges\7 — копия.png" />
-    <Content Include="Resources\Imges\7.png" />
-    <Content Include="Resources\Imges\8 — копия.png" />
-    <Content Include="Resources\Imges\8.png" />
-    <Content Include="Resources\Imges\9 — копия.png" />
-    <Content Include="Resources\Imges\9.png" />
-    <None Include="Resources\fire.png" />
+    <Content Include="Ico_fire.ico" />
+    <None Include="Resources\fire1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

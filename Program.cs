@@ -16,7 +16,7 @@ namespace _0804
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormMenu());
+            Application.Run(new FormGame());
         }
     }
 }
